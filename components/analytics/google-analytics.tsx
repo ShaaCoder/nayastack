@@ -9,6 +9,7 @@ const GA_MEASUREMENT_ID = 'G-4HFT3K9DEB';
 export default function GoogleAnalytics() {
   return (
     <>
+    
       <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}

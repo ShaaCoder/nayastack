@@ -6,6 +6,7 @@ import { AuthProvider } from '@/components/providers/auth-provider';
 import Head from 'next/head';
 
 import GoogleAnalytics from '@/components/analytics/google-analytics';
+import ApolloTracking from '@/components/analytics/apollo-tracking';
 
 
 const inter = Inter({ subsets: ['latin'] });
@@ -34,6 +35,7 @@ export default function RootLayout({
 
 
         <GoogleAnalytics />
+        <ApolloTracking />
 
       </body>
     </html>
